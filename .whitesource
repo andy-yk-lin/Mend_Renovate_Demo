@@ -32,7 +32,8 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "extends": ["mergeConfidence:all-badges"]
   },
    "imageSettings":{
        "imageTracing":{
