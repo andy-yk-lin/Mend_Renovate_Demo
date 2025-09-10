@@ -34,6 +34,13 @@
       "enabled": true
     },
     "extends": ["mergeConfidence:all-badges"]
+    "packageRules": [
+      {
+        "automerge": true,
+        "automergeType": "pr"
+      }
+    ],
+
   },
    "imageSettings":{
        "imageTracing":{
