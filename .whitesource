@@ -36,7 +36,4 @@
            "addMendIdentifier": false
        }
    }
-  "renovateSettings": {
-    "extends": ["mergeConfidence:all-badges"]
-  }
 }
