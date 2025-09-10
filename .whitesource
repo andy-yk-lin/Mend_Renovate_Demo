@@ -5,13 +5,6 @@
     "projectToken": "",
     "baseBranches": []
   },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
@@ -32,7 +25,10 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+  {
+    "extends": ["mergeConfidence:all-badges"]
+  }
   },
    "imageSettings":{
        "imageTracing":{
