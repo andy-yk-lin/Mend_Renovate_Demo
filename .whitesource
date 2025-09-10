@@ -33,7 +33,7 @@
     "workflowRules": {
       "enabled": true
     },
-    "extends": ["mergeConfidence:all-badges"]
+    "extends": ["mergeConfidence:all-badges"],
     "packageRules": [
       {
         "automerge": true,
