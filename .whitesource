@@ -34,6 +34,7 @@
       "enabled": true
     },
     "extends": ["mergeConfidence:all-badges"],
+    "enableRenovate": true,
     "packageRules": [
       {
         "automerge": true,
