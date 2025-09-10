@@ -26,9 +26,7 @@
     "workflowRules": {
       "enabled": true
     },
-  {
-    "extends": ["mergeConfidence:all-badges"]
-  }
+
   },
    "imageSettings":{
        "imageTracing":{
@@ -38,4 +36,7 @@
            "addMendIdentifier": false
        }
    }
+  "renovateSettings": {
+    "extends": ["mergeConfidence:all-badges"]
+  }
 }
