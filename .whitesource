@@ -38,7 +38,8 @@
     "packageRules": [
       {
         "matchUpdateTypes": ["minor"],
-        "automerge": true
+        "automerge": true,
+        "automergeType": "pr"
       }
     ],
     "platformAutomerge": true
