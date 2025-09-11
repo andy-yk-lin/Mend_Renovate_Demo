@@ -38,10 +38,9 @@
     "packageRules": [
       {
         "matchUpdateTypes": ["minor"],
-        "automerge": true,
-        "automergeType": "mr"
+        "automerge": true
       }
-    ],
+    ]
     "platformAutomerge": true
   },
    "imageSettings":{
