@@ -35,7 +35,6 @@
     },
     "enableRenovate": true,
     "extends": ["mergeConfidence:all-badges"],
-    "extends": ["config:recommended"],
     "packageRules": [
       {
         "matchUpdateTypes": ["minor", "patch"],
