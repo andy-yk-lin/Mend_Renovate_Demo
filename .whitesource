@@ -37,12 +37,10 @@
     "extends": ["mergeConfidence:all-badges"],
     "packageRules": [
       {
-        "matchUpdateTypes": ["minor"],
-        "automerge": true,
-        "automergeType": "pr"
+       "matchUpdateTypes": ["major", "minor", "patch"],
+        "automerge": true
       }
-    ],
-    "platformAutomerge": true
+    ]
   },
    "imageSettings":{
        "imageTracing":{
