@@ -39,7 +39,7 @@
       {
         "matchUpdateTypes": ["major", "minor", "patch"],
         "automerge": true,
-        "automergeType": "commit"
+        "automergeType": "pr"
       }
     ],
     "platformAutomerge": true
