@@ -37,7 +37,7 @@
     "extends": ["mergeConfidence:all-badges"],
     "packageRules": [
       {
-       "matchUpdateTypes": ["major", "minor", "patch"],
+        "matchUpdateTypes": ["major", "minor", "patch"],
         "automerge": true
       }
     ],
