@@ -1,5 +1,5 @@
 numpy==2.3.3 
-pandas==2.3.2
+pandas==2.3.3
 Django==3.2.21
 Flask==2.3.2
 aiocpa==2.0.0 
